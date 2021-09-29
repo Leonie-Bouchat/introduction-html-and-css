@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Helvetica", "sans-serif";
+    font-size: 18px;
+    background-color: rgb(216, 216, 228);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    background-color: #3a6fa0;
+    left: 0; 
+    right: 0;
+    padding: 15px;
+    height: 80px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.leonie{
+    font-size: 2em;
+    color: rgb(245, 245, 248);
+    font-weight: 400;
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #3a6fa0;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px;
+    color: #3a6fa0;
+    font-size: 2em;
+}
+
+h3 {
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.SEODefinition {
+    margin: 30px;
+    text-align: justify;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.allRules{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rule {
+    width: 400px;
+    background-color: #7faad1;
+    border: 2px solid black;
+    border-radius: 25% 10%;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.conclusion {
+    margin-bottom: 20px;
+}
+
+.formItem {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formItem label {
+    margin: 10px;
+}
+
+.formItem input {
+    width: 200px;
+    margin: auto;
+}
+
+button {
+    background-color: black;
+    color: #3a6fa0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 25% 10%;
+    right: 200px;
+    margin: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #3a6fa0;
+    height: 30px;
+}
